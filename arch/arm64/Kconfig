@@ -85,7 +85,6 @@ config 64BIT
 
 config DTB_J5Y17LTE
 	bool "Builds DTB for J5 Pro"
-	depends on SOC_EXYNOS7870
 
 config ARCH_PHYS_ADDR_T_64BIT
 	def_bool y
