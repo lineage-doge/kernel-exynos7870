@@ -480,11 +480,11 @@ asm-generic:
 	$(Q)$(MAKE) -f $(srctree)/scripts/Makefile.asm-generic \
 	            src=uapi/asm obj=arch/$(SRCARCH)/include/generated/uapi/asm
 
-export ANDROID_VERSION=800000
-KBUILD_CFLAGS += -DANDROID_VERSION=800000
-export ANDROID_MAJOR_VERSION=8
-KBUILD_CFLAGS += -DANDROID_MAJOR_VERSION=8
-export ANDROID_MAJOR_VERSION=o
+export ANDROID_VERSION=900000
+KBUILD_CFLAGS += -DANDROID_VERSION=900000
+export ANDROID_MAJOR_VERSION=9
+KBUILD_CFLAGS += -DANDROID_MAJOR_VERSION=9
+export ANDROID_MAJOR_VERSION=p
 
 
 PHONY += replace_dirs
